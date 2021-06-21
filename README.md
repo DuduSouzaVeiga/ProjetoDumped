@@ -42,6 +42,19 @@ As variáveis no comando são:
 - Visualização de alguns dados de treinamento com labels;
 
 ## Inferencia na base de teste:
-- Interação para a inferência na base de testes, feita através de input, simulando o momento onde a foto será tirada e o reconhecimento será feito.
+Interação para a inferência na base de testes, feita através de input, simulando o momento onde a foto será tirada e o reconhecimento será feito.
 
-![Graficos](https://drive.google.com/file/d/1CmgVHB1xYVAJ0-L4fsISb57HoGyfPIT9/view?usp=sharing)
+## Gerando resultados com a inferência:
+
+Foi alterada parte do código base de detecção do Yolov5 para que o mesmo gere um arquivo de texto contendo todos os lixos eletrônicos detectados até então. Depois do registro dos elementos identificados, ocorre um tratamento dos dados para verificar a quantidade de cada material e a criação de um Dataframe com os dados captados.
+Através da biblioteca Seaborn, foi plotado um gráfico com as informações presentes na base de dados criada. Além disso, foram utilizados os métodos de “.head” e “.describe”  da biblioteca Pandas para facilitar o entendimento.
+
+O método "Head'' mostra os materiais detectados e a quantidade de cada.
+
+O método “Describe” vai mostrar estatísticas da coluna de quantidade, que contém valores inteiros. Entre os atributos mostrados, estão: média, desvio padrão, menor e maior valor.
+
+## Resultados
+
+Foram rodados vários testes, variando os números de batchs e epochs, mas, dessa vez, considerando os resultados dos parâmetros usados anteriormente, que indicavam 600 epochs como ideal para o treino deste modelo, para confirmar, foi rodado um teste maior, com 800 épocas e outro menor, para deixar visível a discrepância no resultado. Abaixo, imagem do teste mencionado, em laranja com aproximadamente 300 de epoch e em azul, com 800.
+
+![Graficos](/Images/TrainTensorFlow.png)
