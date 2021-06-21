@@ -65,9 +65,9 @@ Foram rodados vários testes, variando os números de batchs e epochs, mas, dess
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/DuduSouzaVeiga"><img style="border-radius: 50%;" src="	https://avatars.githubusercontent.com/u/54594204?v=4" width="100px;" alt=""/><br /><sub><b>Eduardo Souza</b></sub></a><br /><p>💻</p></td>
+    <td align="center"><a href="https://github.com/DuduSouzaVeiga"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/54594204?v=4" width="100px;" alt=""/><br /><sub><b>Eduardo Souza</b></sub></a><br /><p>💻</p></td>
     <td align="center"><a href="https://github.com/gtborges"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/49994586?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Borges</b></sub></a><br /><p>🎧</p></td>
     <td align="center"><a href="https://github.com/JoMaAlves"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/50152498?v=4" width="100px;" alt=""/><br /><sub><b>João Marcelo Alves</b></sub></a><br /><p>🦖</p></td>
-    <td align="center"><a href="https://github.com/OlavoFerraz"><img style="border-radius: 50%;" src="	https://avatars.githubusercontent.com/u/51130831?v=4" width="100px;" alt=""/><br /><sub><b>Olavo Ferraz</b></sub></a><br /><p href="https://github.com/OlavoFerraz">🇧🇷</p></td>
+    <td align="center"><a href="https://github.com/OlavoFerraz"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51130831?v=4" width="100px;" alt=""/><br /><sub><b>Olavo Ferraz</b></sub></a><br /><p href="https://github.com/OlavoFerraz">🇧🇷</p></td>
   </tr>
 </table>
