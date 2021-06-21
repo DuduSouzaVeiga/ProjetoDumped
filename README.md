@@ -2,6 +2,8 @@
 
 Visando o desenvolvimento de uma lixeira inteligente e com alta interatividade, a equipe técnica buscou tecnologias capazes de executar o projeto. O [YOLOv5](https://github.com/ultralytics/yolov5) é a última release da família YOLO, que foi inicialmente introduzido ao mercado como o primeiro modelo de detecção de objetos que combinava previsão de bounding box e classificação de objetos em um único lugar. Com sua nova implementação no framework PyTorch, ficou muito mais leve e de fácil uso, por conta dessas características se tornou a base para o desenvolvimento do modelo de detecção de lixo eletrônico do projeto.
 
+
+
 ## Setup do YOLOv5: 
 
 - Para criar a estrutura de arquivos necessária para o uso dessa ferramenta é preciso clonar o repositório da Ultralytics voltado especificamente para essa configuração.
@@ -58,3 +60,14 @@ O método “Describe” vai mostrar estatísticas da coluna de quantidade, que 
 Foram rodados vários testes, variando os números de batchs e epochs, mas, dessa vez, considerando os resultados dos parâmetros usados anteriormente, que indicavam 600 epochs como ideal para o treino deste modelo, para confirmar, foi rodado um teste maior, com 800 épocas e outro menor, para deixar visível a discrepância no resultado. Abaixo, imagem do teste mencionado, em laranja com aproximadamente 300 de epoch e em azul, com 800.
 
 ![Graficos](/Images/TrainTensorFlow.png)
+
+## Contribuidores
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/DuduSouzaVeiga"><img style="border-radius: 50%;" src="	https://avatars.githubusercontent.com/u/54594204?v=4" width="100px;" alt=""/><br /><sub><b>Eduardo Souza</b></sub></a><br /><p>💻</p></td>
+    <td align="center"><a href="https://github.com/gtborges"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/49994586?v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Borges</b></sub></a><br /><p>🎧</p></td>
+    <td align="center"><a href="https://github.com/JoMaAlves"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/50152498?v=4" width="100px;" alt=""/><br /><sub><b>João Marcelo Alves</b></sub></a><br /><p>🦖</p></td>
+    <td align="center"><a href="https://github.com/OlavoFerraz"><img style="border-radius: 50%;" src="	https://avatars.githubusercontent.com/u/51130831?v=4" width="100px;" alt=""/><br /><sub><b>Olavo Ferraz</b></sub></a><br /><p href="https://github.com/OlavoFerraz">🇧🇷</p></td>
+  </tr>
+</table>
