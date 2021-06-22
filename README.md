@@ -3,7 +3,7 @@
 Visando o desenvolvimento de uma lixeira inteligente e com alta interatividade, a equipe técnica buscou tecnologias capazes de executar o projeto. O [YOLOv5](https://github.com/ultralytics/yolov5) é a última release da família YOLO, que foi inicialmente introduzido ao mercado como o primeiro modelo de detecção de objetos que combinava previsão de bounding box e classificação de objetos em um único lugar. Com sua nova implementação no framework PyTorch, ficou muito mais leve e de fácil uso, por conta dessas características se tornou a base para o desenvolvimento do modelo de detecção de lixo eletrônico do projeto.
 
 ## Técnica aplicada em machine leaning
-*Deep Neural Network* para visão computacional usando Yolov5 e Pytorch.
+**Deep Neural Network** para visão computacional usando Yolov5 e Pytorch.
 
 ## Setup do YOLOv5: 
 
